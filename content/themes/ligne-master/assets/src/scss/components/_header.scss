@@ -1,0 +1,20 @@
+.main-header {
+  height: 100px;
+}
+
+.main-header h1 {
+  font-size: 25px;
+  padding-left: 40px;
+  padding-top: 25px;
+  a {
+    color: $text-color-base;
+  }
+}
+.main-header h2 {
+  border-bottom: 1px solid $border-color-base;
+  font-size: 1em;
+  padding-left: 40px;
+  padding-bottom: 9px;
+  color: #b7b6b6;
+  font-weight: 300;
+}

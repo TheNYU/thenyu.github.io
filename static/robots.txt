@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: http://nyan-engine.ml/sitemap.xml
+Disallow: /ghost/
