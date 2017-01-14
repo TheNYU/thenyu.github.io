@@ -8,7 +8,7 @@
 
 <header class="main-header">
   <h1>
-    <a href="{{@blog.url}}">{{@blog.title}}</a>
+    <a href="{{@blog.url}}">{{@blog.title}}</a> · {{title}}
   </h1>
   <h2>
     {{@blog.description}}
@@ -19,9 +19,9 @@
     <article class="post">
 
         <header class="post-header">
-            <h1 class="post-title">{{title}}</h1>
+            <!--<h1 class="post-title">{{title}}</h1>-->
             <section class="post-meta">
-                {{tags separator=" · " suffix=" · "}}<time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="YYYY-MM-DD"}}</time>
+                {{tags separator=" · " suffix=" · "}}<!--<time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="YYYY-MM-DD"}}</time>-->
             </section>
         </header>
 
